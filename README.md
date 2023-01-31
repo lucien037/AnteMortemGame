@@ -1,4 +1,4 @@
-<p align="center">![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQNqZF07XFe4PfJZyfhuO8dMX8XvbY41ibqw&usqp=CAU) 
+<p align="center"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQNqZF07XFe4PfJZyfhuO8dMX8XvbY41ibqw&usqp=CAU"> </p>
 
 
 
