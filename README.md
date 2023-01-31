@@ -5,7 +5,7 @@
 ### Bien le bonjour 👋
 
 
-**Ce** jeux est dévelloper en python pour le projet d'E3IN
+**Ce** jeux est développer en python pour le projet piscine python en E3IN.
 
 Tout d'abord pour commencer :
 
