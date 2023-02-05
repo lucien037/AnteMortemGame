@@ -631,7 +631,7 @@ for row in range(LIGNE):
 	r = [-1] * COLONNE
 	map_monde_data.append(r)
 #chargement des données du niveau en cour
-with open(f'Niveau{Niveau}_data.csv', newline='') as csvfile:
+with open(f'Data_Niveau/Niveau{Niveau}_data.csv', newline='') as csvfile:
 	reader = csv.reader(csvfile, delimiter=',')
 	for x, row in enumerate(reader):
 		for y, tile in enumerate(row):
@@ -830,7 +830,7 @@ while run:
 
 				map_monde_data = reset_Niveau()
 				if Niveau <= NIVEAU_MAX:
-					with open(f'Niveau{Niveau}_data.csv', newline='') as csvfile:
+					with open(f'Data_Niveau/Niveau{Niveau}_data.csv', newline='') as csvfile:
 						reader = csv.reader(csvfile, delimiter=',')
 						for x, row in enumerate(reader):
 							for y, tile in enumerate(row):
@@ -845,7 +845,7 @@ while run:
 					Intro = True
 					defilement_fond = 0
 					map_monde_data = reset_Niveau()
-					with open(f'Niveau{Niveau}_data.csv', newline='') as csvfile:
+					with open(f'Data_Niveau/Niveau{Niveau}_data.csv', newline='') as csvfile:
 						reader = csv.reader(csvfile, delimiter=',')
 						for x, row in enumerate(reader):
 							for y, tile in enumerate(row):
