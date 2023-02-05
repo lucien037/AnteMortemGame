@@ -631,7 +631,7 @@ for row in range(LIGNE):
 	r = [-1] * COLONNE
 	map_monde_data.append(r)
 #chargement des données du niveau en cour
-with open(f'Niveau{Niveau}_data.csv', newline='') as csvfile:
+with open(f'Data_Niveau/Niveau{Niveau}_data.csv', newline='') as csvfile:
 	reader = csv.reader(csvfile, delimiter=',')
 	for x, row in enumerate(reader):
 		for y, tile in enumerate(row):
@@ -650,7 +650,7 @@ while run:
 		#cinématique du début
 		ecran.fill(GRIS)
 		son = 'Ressources/Video_Son/son_cinematique.mp3'
-		play = pyglet.media.personnage_principal()
+		play = pyglet.media.Player()
 		source = pyglet.media.StreamingSource()
 		MediaLoad = pyglet.media.load(son)
 		play.queue(MediaLoad)
@@ -770,7 +770,7 @@ while run:
 				fond1 = pygame.transform.scale(fond, (x)) # (1920, 1080))
 
 				son = (f'Ressources/Video_Son/audio_m{indicateur}.mp3')
-				personnage_principal = pyglet.media.personnage_principal()
+				personnage_principal = pyglet.media.Player()
 				source = pyglet.media.StreamingSource()
 				MediaLoad = pyglet.media.load(son)
 				personnage_principal.queue(MediaLoad)
@@ -830,7 +830,7 @@ while run:
 
 				map_monde_data = reset_Niveau()
 				if Niveau <= NIVEAU_MAX:
-					with open(f'Niveau{Niveau}_data.csv', newline='') as csvfile:
+					with open(f'Data_Niveau/Niveau{Niveau}_data.csv', newline='') as csvfile:
 						reader = csv.reader(csvfile, delimiter=',')
 						for x, row in enumerate(reader):
 							for y, tile in enumerate(row):
@@ -845,7 +845,7 @@ while run:
 					Intro = True
 					defilement_fond = 0
 					map_monde_data = reset_Niveau()
-					with open(f'Niveau{Niveau}_data.csv', newline='') as csvfile:
+					with open(f'Data_Niveau/Niveau{Niveau}_data.csv', newline='') as csvfile:
 						reader = csv.reader(csvfile, delimiter=',')
 						for x, row in enumerate(reader):
 							for y, tile in enumerate(row):
