@@ -650,7 +650,7 @@ while run:
 		#cinématique du début
 		ecran.fill(GRIS)
 		son = 'Ressources/Video_Son/son_cinematique.mp3'
-		play = pyglet.media.personnage_principal()
+		play = pyglet.media.Player()
 		source = pyglet.media.StreamingSource()
 		MediaLoad = pyglet.media.load(son)
 		play.queue(MediaLoad)
@@ -770,7 +770,7 @@ while run:
 				fond1 = pygame.transform.scale(fond, (x)) # (1920, 1080))
 
 				son = (f'Ressources/Video_Son/audio_m{indicateur}.mp3')
-				personnage_principal = pyglet.media.personnage_principal()
+				personnage_principal = pyglet.media.Player()
 				source = pyglet.media.StreamingSource()
 				MediaLoad = pyglet.media.load(son)
 				personnage_principal.queue(MediaLoad)
