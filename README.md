@@ -6,10 +6,13 @@
 Ante Mortem
 
 *Par Lancelot ESCAICH, Cantin LIOTTARD, Lucie NOEL, Hugo ESCALBERT
-*Tous droits réservés
+
+Tous droits réservés
 
 Description :  
+
 Synopsis : 
+
 Ils étaient un couple heureux avec un petit garçon nommé Léo. Ils venaient de quitter la vie trépidante de la ville pour s'installer dans un charmant petit village en Île-de-France. Mila avait un passé lourd et secret qu'elle cachait depuis des années, mais elle était déterminée à laisser le passé derrière elle et à commencer une nouvelle vie avec sa famille.
 Un jour, alors que toute la famille était à la maison, ils ont entendu frapper à la porte. Mila a été choquée de voir cinq personnes mystérieuses debout sur le pas de la porte, exigeant de parler avec elle. Ils semblaient savoir tout sur son passé et menaçaient de révéler la vérité si elle ne les laissait pas entrer.
 Julie était terrifiée pour sa sécurité et celle de son fils. Elle a commencé à paniquer, mais soudain, elle a réalisé qu'elle devait être forte pour protéger sa famille. Elle a pris une profonde respiration et a expliqué calmement à ces personnes qu'elle ne leur donnerait pas ce qu'ils voulaient et qu'ils devaient partir immédiatement.
@@ -75,17 +78,24 @@ Vous n’avez pas besoin d’une configuration minimum pour jouer à Ante Mortem
 Pour lancer le jeu, vous devez néanmoins installer le module Pygame dans votre interface Python (VsCode, Pycharme, …) 
 
 Comment jouer : 
+
 Pour vous déplacer dans le jeu : 
+
 Touche Q pour aller à gauche
+
 Touche D pour aller à droite
+
 Touche ESPACE pour sauter
+
 Touche X pour tirer
+
 Touche A pour les grenades
 
 Si vous mourrez, vous recommencerez dans le monde dans lequel vous êtes mort. 
 Attention aux pièges, l’eau est froide 😊
 
 Assistance technique : 
+
 Pour toute remarque ou incident sur le jeu, merci de nous contacter à l’adresse cantin.liottard@edu.itescia.fr
 
 Nous vous souhaitons un excellent jeu ainsi qu’une bonne vengeance.
