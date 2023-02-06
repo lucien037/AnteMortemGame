@@ -100,4 +100,4 @@ Pour toute remarque ou incident sur le jeu, merci de nous contacter à l’adres
 
 Nous vous souhaitons un excellent jeu ainsi qu’une bonne vengeance.
 
-<p align="center">ANTE MORTEM> </p>
+<p align="center">ANTE MORTEM</p>
