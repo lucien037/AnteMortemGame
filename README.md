@@ -1,12 +1,12 @@
 <p align="center"><img src="https://user-images.githubusercontent.com/101070270/216955423-dc4043d1-3ed1-4877-944a-4884718a357e.png"> </p>
 
 
-**Ce** jeux est développer en python pour le projet piscine python en E3IN.
+**Ce** jeux est développé en python pour le projet piscine python en E3IN.
 
 Ante Mortem
 
 *Par Lancelot ESCAICH, Cantin LIOTTARD, Lucie NOEL, Hugo ESCALBERT
-Tous droits réservés
+*Tous droits réservés
 
 Description :  
 Synopsis : 
