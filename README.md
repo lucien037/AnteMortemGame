@@ -3,7 +3,7 @@
 
 **Ce** jeux est développé en python pour le projet piscine python en E3IN.
 
-<p align="center">Ante Mortem> </p>
+<p align="center">Ante Mortem</p>
 
 *Par Lancelot ESCAICH, Cantin LIOTTARD, Lucie NOEL, Hugo ESCALBERT
 
